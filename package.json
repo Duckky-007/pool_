@@ -1,0 +1,19 @@
+{
+  "name": "poolfund",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PoolFund — Investment pool platform for funding real-world income-generating assets",
+  "scripts": {
+    "server:install": "cd server && npm install",
+    "client:install": "cd client && npm install",
+    "install:all": "npm run server:install && npm run client:install",
+    "seed": "cd server && npm run seed",
+    "server:dev": "cd server && npm run dev",
+    "client:dev": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
+
