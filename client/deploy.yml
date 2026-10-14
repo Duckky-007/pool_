@@ -1,5 +1,4 @@
 name: Deploy Frontend to GitHub Pages
-
 on:
   push:
     branches: [main]
