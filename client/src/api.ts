@@ -1,4 +1,4 @@
-const BASE_URL = '/api';
+const BASE_URL = 'https://pool-funds-server.onrender.com/';
 
 export function getToken(): string | null {
   return localStorage.getItem('poolfund_token');
