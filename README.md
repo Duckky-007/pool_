@@ -5,7 +5,6 @@
 PoolFund is a full-stack web application prototype for co-funding real-world income-generating assets (such as airport taxis, delivery fleets, or rental property units). Companies propose an asset acquisition request, investors contribute capital into a shared pool, and once funded, the asset generates revenues that automatically appreciate the pool's share price.
 
 ---
-
 ## 🧭 Database & MongoDB Compass Integration
 
 PoolFund is backed by **MongoDB**. You can inspect all live collections and documents inside **MongoDB Compass**:
