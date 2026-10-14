@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://github.com/fuck-u2/pool_/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
