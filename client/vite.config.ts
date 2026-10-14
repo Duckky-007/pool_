@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/pool_/",
   plugins: [react()],
   server: {
-    port: ,
+    port:3000,
     proxy: {
       '/api': {
         target: 'https://pool-funds-server.onrender.com/',
